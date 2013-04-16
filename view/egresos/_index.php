@@ -17,7 +17,7 @@ $(document).ready(function() {
 <h6 class="ui-widget-header">EGRESOS DE CAJA REGISTRADOS</h6>
 <div id="addbotones">
 	<a class="anular" href="javascript:" title="Anular Movimiento">
-            <span class="box-boton">Anular</span>
+            <!-- <span class="box-boton">Anular</span> -->
             <span class="box-boton"><img src="images/delete.png"/></span>        
     </a>
 </div>

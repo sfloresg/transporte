@@ -20,6 +20,7 @@
 <body>
     <div id="menu-top">
         <div class="wrapper-login">
+            <div >
             <ul class="item-top">
                 <li>
                     <b>EMPRESA SAN MARTIN S.A.</b>
@@ -44,18 +45,23 @@
             <div style="float:right">                
                 <a href="#" class="text-login"><?php echo strtoupper($_SESSION['name']); ?></a>
                 <a href="index.php?controller=user&action=logout" class="text-login">Cerrar Session</a>                
+            </div>      
+            <div style="clear:both"></div>     
+        </div>
+            <div style="width:90px;float:left;">
+                <img id="img-logo" src="images/auto-logo.png"  style="float: left; display: block; " width="80"/>                
             </div>
+            <div id="menu"></div>
         </div>
     </div>    
     <div id="body">
          <div id="banner">
-             <img id="img-logo" src="images/auto-logo.png"  style="float: left; margin-top: 10px; margin-left: 10px; display: block; " width="120"/>
+             <!-- <img id="img-logo" src="images/auto-logo.png"  style="float: left; margin-top: 10px; margin-left: 10px; display: block; " width="120"/>
              <div id="title-banner">
                  <b>SISTEMA ADMINISTRATIVO DE TRANSPORTE</b>
                  <p style="font-size: 10px;">EMPRESA SAN MARTIN S.A.</p>
-             </div>
-         </div>
-        <div id="menu"></div>
+             </div> -->
+         </div>        
         <div class="spacer"></div>        
         <div id="content">
             <?php echo $content; ?>

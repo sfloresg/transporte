@@ -32,25 +32,25 @@
     <div class="operaciones" style="float:left; display: inline-block; margin-top: 3px;">      
         <?php if(mostrar($new)) { ?>
         <a class="nuevo" href="index.php?controller=<?php echo $name; ?>&action=create" title="Nuevo Registro">
-            <span class="box-boton">Nuevo</span>
+            <!-- <span class="box-boton">&nbsp;</span> -->
             <span class="box-boton"><img src="images/add.png"/></span>        
         </a>        
         <?php } 
         if(mostrar($edit)) { ?>
         <a class="editar" onclick="editar();" title="Editar Registro">
-            <span class="box-boton">Editar</span>
+            <!-- <span class="box-boton">Editar</span> -->
             <span class="box-boton"><img src="images/table_edit.png"/></span> 
         </a>
         <?php } 
         if(mostrar($delete)) { ?>
         <a class="eliminar" onclick="eliminar();" title="Eliminar Registro" style="color:red;">
-            <span class="box-boton">Eliminar</span>
+            <!-- <span class="box-boton">Eliminar</span> -->
             <span class="box-boton"><img src="images/delete.png"/></span> 
         </a>	        
         <?php } 
         if(mostrar($view)){ ?>
         <a class="ver" onclick="ver()" title="Ver Registro">
-            <span class="box-boton">Ver</span>
+            <!-- <span class="box-boton">Ver</span> -->
             <span class="box-boton"><img src="images/zoom.png"/></span> 
         </a>	        
         <?php } ?>

@@ -139,7 +139,7 @@ $.fn.generaMenu = function(menu) {
                var posicionEnlace = arrayLiMenuPrincipal[i].offset();
                this.css({
                   left: posicionEnlace.left,
-                  top: posicionEnlace.top + 25
+                  top: posicionEnlace.top + 29
                });
             });
          }
