@@ -1,0 +1,1 @@
+<h6 class="ui-widget-header">&nbsp;</h6>
