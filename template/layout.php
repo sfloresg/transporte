@@ -18,10 +18,10 @@
     <script type="text/javascript" src="js/js-layout.js"></script>
 </head>
 <body>
-    <header id="site_head"><!--useful to create the 960px limit-->
+    <header id="site_head">
         <div class="header_cont">
-        <h1><a href="#">mr. hurley</a></h1>        
-        <nav class="head_nav"></nav>
+            <h1><a href="#">Empresa San Martin S.A.</a></h1>        
+            <nav class="head_nav"></nav>
         </div>
     </header>
     <!-- <div id="menu-top">
@@ -61,13 +61,7 @@
         </div>
     </div>   -->  
     <div id="body">
-         <div id="banner">
-             <!-- <img id="img-logo" src="images/auto-logo.png"  style="float: left; margin-top: 10px; margin-left: 10px; display: block; " width="120"/>
-             <div id="title-banner">
-                 <b>SISTEMA ADMINISTRATIVO DE TRANSPORTE</b>
-                 <p style="font-size: 10px;">EMPRESA SAN MARTIN S.A.</p>
-             </div> -->
-         </div>        
+         <div id="banner"></div>        
         <div class="spacer"></div>        
         <div id="content">
             <?php echo $content; ?>

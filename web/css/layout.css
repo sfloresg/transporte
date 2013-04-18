@@ -1,6 +1,6 @@
 * { padding:0; margin:0;}
 body{ background: #fff url('../images/bg.png') repeat ;font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";font-size: 66%;padding: 0;margin: 0;}
-#body {width: 99%;margin:0px auto;border-top:0;}
+#body {width: 99.5%;margin:0px auto;border-top:0;}
 #menu-top {margin-top: 0px;    width: 100%;margin:0 auto;height: 34px;background: #dadada;position:absolute;z-index:1;}
 .text-login {margin-left: 5px; padding: 0 0px 0 5px; border-left: 1px solid #dadada;}
 #menu-top ul {padding: 0;margin: 0;}
@@ -10,7 +10,7 @@ a { text-decoration: none; }
 #menu-top {line-height: 34px;font-family: 'Lucida Grande',Verdana,sans-serif;}
 .item-top li {float: left;margin-left: 10px;    padding: 0px 10px; background: transparent;}
 .wrapper-login {width: 96%;height: 75px; color:#fff;margin:0 auto;background: #004972 url('../images/bck_head2.jpg') repeat-x;position: absolute;padding-left: 2%;padding-right:  2%;border-bottom: 2px solid #CCC;}
-#banner{float: left;height:47px;width:100%;padding-bottom: 0px;margin-top: 34px;}
+#banner{float: left;height:38px;width:100%;padding-bottom: 0px;margin-top: 34px;}
 #menu {height: 25px;width: auto;margin-top: 0px;position: absolute;z-index: 1; left:120px; }
 #content {background: #fff;float: left;width: 100%; min-height: 460px; }
 #foot {text-align: center;padding-top: 1px;padding-bottom: 5px;}
