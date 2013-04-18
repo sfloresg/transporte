@@ -18,7 +18,13 @@
     <script type="text/javascript" src="js/js-layout.js"></script>
 </head>
 <body>
-    <div id="menu-top">
+    <header id="site_head"><!--useful to create the 960px limit-->
+        <div class="header_cont">
+        <h1><a href="#">mr. hurley</a></h1>        
+        <nav class="head_nav"></nav>
+        </div>
+    </header>
+    <!-- <div id="menu-top">
         <div class="wrapper-login">
             <div >
             <ul class="item-top">
@@ -38,10 +44,10 @@
                     TURNO: <?php echo $_SESSION['name_turno'] ?>
                 </li>
             </ul>            
-            <!-- <div id="wrapp-search">
+            <div id="wrapp-search">
             <input type="text" name="txtbuscar" id="txtbuscar" class="ui-widget-content text" style="width:150px; text-align:center; padding:2px; font-weight:bold; font-size:12px; margin:0" maxlength="8" placeholder="Buscar Expediente ..." />
             <a href="#">Busqueda Avanzada</a>
-            </div> -->
+            </div>
             <div style="float:right">                
                 <a href="#" class="text-login"><?php echo strtoupper($_SESSION['name']); ?></a>
                 <a href="index.php?controller=user&action=logout" class="text-login">Cerrar Session</a>                
@@ -53,7 +59,7 @@
             </div>
             <div id="menu"></div>
         </div>
-    </div>    
+    </div>   -->  
     <div id="body">
          <div id="banner">
              <!-- <img id="img-logo" src="images/auto-logo.png"  style="float: left; margin-top: 10px; margin-left: 10px; display: block; " width="120"/>

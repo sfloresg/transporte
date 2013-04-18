@@ -10,10 +10,11 @@
                 $("#menu").empty();                    
                 var opciones_menu = menu;
                 w = $(document).width();                
-                $("#menu").generaMenu(opciones_menu);
+                $(".head_nav").generaMenu(opciones_menu);
+                /*$("#m0").find('a').addClass("home");*/
             },'json');    
             
-                 var $floatingbox = $('#menu-top');
+                 var $floatingbox = $('#site_head');
  
                  if($('#body').length > 0){
 

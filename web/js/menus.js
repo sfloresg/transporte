@@ -22,7 +22,7 @@ $.fn.generaMenu = function(menu) {
       //recorro los elementos del menú
       jQuery.each(menu, function(i,j) {
          //ahora en this tengo cada uno de los elementos.
-         var elementoPrincipal = $('<li id="m'+i+'" class="ui-corner-top ui-tabs-selected ui-widget-header"></li>');
+         var elementoPrincipal = $('<li id="m'+i+'" class=""></li>');
          listaPrincipal.append(elementoPrincipal);
          //creo el enlace e inserto
          var enlacePrincipal;
@@ -139,7 +139,7 @@ $.fn.generaMenu = function(menu) {
                var posicionEnlace = arrayLiMenuPrincipal[i].offset();
                this.css({
                   left: posicionEnlace.left,
-                  top: posicionEnlace.top + 29
+                  top: posicionEnlace.top + 18
                });
             });
          }
